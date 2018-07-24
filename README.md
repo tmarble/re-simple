@@ -16,10 +16,11 @@ _NOTES_
 * This project is intentionally using the deprecated `figwheel` REPL rather than the new `figwheel-main` REPL.
 * The `.dir-locals.el` setting is not quite working correctly (`cider-default-cljs-repl` must be set to `Figwheel` in customize)
   * see also [Directory Variables](https://www.gnu.org/software/emacs/manual/html_node/emacs/Directory-Variables.html) and [Directory Local Variables](https://www.gnu.org/software/emacs/manual/html_node/elisp/Directory-Local-Variables.html)
-* Perhaps once `.dir-locals.el` it will be possible to require and eval a specific CLJ function (?)
+* Perhaps once `.dir-locals.el` it will be possible to require and eval a specific CLJ function on jack-in (?)
 
 ## Usage
 
+Visit `core.cljs` and `M-x cider-jack-in-clj&cljs`
 
 ## License
 

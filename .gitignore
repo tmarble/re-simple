@@ -1,5 +1,11 @@
 # .gitignore
 
+# project specific
+/resources/public/js/compiled/
+
+# logs
+*.log
+
 # clojure
 *.jar
 *.class
