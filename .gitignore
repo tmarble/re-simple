@@ -1,0 +1,20 @@
+# .gitignore
+
+# clojure
+*.jar
+*.class
+/target
+/.nrepl*
+/.cljs*
+
+# leiningen
+/.lein*
+
+# emacs
+*~
+\#*\#
+.\#*
+
+# silly Mac filesystems
+*.DS_Store*
+*._*
